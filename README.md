@@ -2,7 +2,6 @@
 
 - Fill the `Config.json file`.
 - ```js
-{
     "token": "",
     "prefix": "b#",
     "color": {
@@ -12,8 +11,7 @@
     "owner": [
         "your user id",
         "other developer user id"
-    ]
-}```
+    ]```
 
 ---
 
