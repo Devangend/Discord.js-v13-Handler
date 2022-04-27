@@ -13,8 +13,7 @@
         "your user id",
         "other developer user id"
     ]
-}
-  ```
+}```
 
 ---
 
