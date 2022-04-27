@@ -1,0 +1,18 @@
+{
+  "name": "discord-v13-commands-handler",
+  "version": "1.0.0",
+  "description": "Discord.js v13 commands handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Devangend",
+  "license": "ISC",
+  "dependencies": {
+    "beautify": "^0.0.8",
+    "chalk": "^4.1.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security"
+  }
+}

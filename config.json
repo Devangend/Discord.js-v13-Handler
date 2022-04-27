@@ -1,0 +1,12 @@
+{
+    "token": "",
+    "prefix": "b#",
+    "color": {
+        "main": "BLACK",
+        "error": "RED"
+    },
+    "owner": [
+        "your user id",
+        "other developer user id"
+    ]
+}
