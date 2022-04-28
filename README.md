@@ -15,24 +15,4 @@
     ```
 
 ---
-
-# Also if your use replit
-- Go to `.replit` file and change to:
-- `language = "nodejs"`
-- `run = "node index.js"`
----
-# This Commands Handler Need node version v16+
-- To update the `node version` please follow the step
-1) got to `console box` and click `Shell`
-2) `Copy and Paste` the code in this code box:
-```
-npm init -y && npm i --save-dev node@16 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
-```
-3) And press `Enter`
----
-- Also Change `client.login(token)` to `client.login(process.env.token);`
-- Open `secrets`
-- [![example](https://cdn.discordapp.com/attachments/853617109560328192/922205086665572402/unknown.jpg)](https://cdn.discordapp.com/attachments/853617109560328192/922205086665572402/unknown.jpg)
-- Put `your bot token` inside the `value box`
-- And then press `save`
-- Lastly press `run` buttons to start the bot.
+# For Replit User (coming soon)
