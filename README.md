@@ -21,6 +21,10 @@
 - `language = "nodejs"`
 - `run = "node index.js"`
 ---
+# This Commands Handler Need node version v16+
+- To update it got to shell in replit console box
+```npm init -y && npm i --save-dev node@16 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH```
+---
 - Also Change `client.login(token)` to `client.login(process.env.token);`
 - Open `secrets`
 - [![example](https://cdn.discordapp.com/attachments/853617109560328192/922205086665572402/unknown.jpg)](https://cdn.discordapp.com/attachments/853617109560328192/922205086665572402/unknown.jpg)
