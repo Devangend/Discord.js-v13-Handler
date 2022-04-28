@@ -22,10 +22,13 @@
 - `run = "node index.js"`
 ---
 # This Commands Handler Need node version v16+
-- To update it got to shell in replit console box
+- To update the `node version` please follow the step
+1) got to `console box` and click `Shell`
+2) `Copy and Paste` the code in this code box:
 ```
 npm init -y && npm i --save-dev node@16 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
 ```
+3) And press `Enter`
 ---
 - Also Change `client.login(token)` to `client.login(process.env.token);`
 - Open `secrets`
