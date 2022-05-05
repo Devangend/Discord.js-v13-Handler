@@ -41,8 +41,7 @@ module.exports = (client, message) => {
       client.cooldown.delete(message.author.id + commandFile.name);
     }, cooldown_time);
     let coldown = new MessageEmbed()
-    .setDescription(`<a:clock2:884633815308439634> | \`Calm down dude, You need to wait\`**${times}**`)
-    .setColor(color.error)
+    .setDescription(`Calm down dude, You need to wait **${times}**`)
     return message.channel.send({
       embeds: [coldown]
     });
