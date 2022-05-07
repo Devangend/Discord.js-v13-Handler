@@ -26,7 +26,7 @@ module.exports = {
             const toEval = args.join(" ");
             const evaluated = eval(toEval);
             
-            let embed = new Discord.MessageEmbed()
+            let embed = new MessageEmbed()
             .setTitle("Discord.js Eval")
             .addField("**Input**", Formatters.codeBlock("js", Beautify(args.join(" "), { format: "js" })))
             .addField("**Output**", Formatters.codeBlock("js", evaluated))
@@ -41,7 +41,7 @@ module.exports = {
             
           } catch (e) {
             // Return error when your eval the code
-            let errorembed = new Discord.MessageEmbed()
+            let errorembed = new MessageEmbed()
             .setTitle("ERROR!")
             .setDescription(Formatters.codeBlock("js", e))
             .setTimestamp()
