@@ -16,4 +16,4 @@
 - This handler require node version v16+
 - if not the handler will give error 
 ---
-# For Replit User (coming soon)
+# For Replit User (coming soon).
