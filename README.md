@@ -1,3 +1,5 @@
+Support me by star this project 😆
+
 # Discord-v13-Commands-handlers
 
 - Fill the `Config.json file`.
