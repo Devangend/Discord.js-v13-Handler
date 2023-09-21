@@ -4,7 +4,7 @@ Support me by star the project ☺️
 
 - Fill the `Config.json file`.
 - ```js
-    "token": "",
+    "token": "Your Bot Token",
     "prefix": "b#",
     "color": {
         "main": "BLACK",
