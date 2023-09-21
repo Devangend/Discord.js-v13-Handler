@@ -15,7 +15,6 @@ Support me by star the project ☺️
         "other developer user id"
     ]
     ```
-- This handler require node version v16+
-- if not the handler will give error 
+- This handler require node version v16+ if not the handler will give error 
 ---
 # For Replit User (coming soon).
